@@ -23,8 +23,10 @@ This project is an **8×8×8 LED Cube** controlled by an **Arduino Uno**. It cre
 
 ## Circuit Design
 - The cube is arranged in **8 layers**, each containing **64 LEDs**.
-- The **rows** are controlled via shift registers.
-- The **columns** (layers) are switched using transistors.
+- The **rows** (horizontally aligned LEDs in a layer) share a common anode and are controlled via shift registers.
+- The shift registers convert serial data from the Arduino into parallel outputs and multiple shift registers are cascaded to handle all 64 outputs.
+- The **columns**(vertically aligned LEDs) share a common cathode which are switched using transistors.
+- The Arduino activates one transistor at a time, enabling only one layer at a time.
 - Multiplexing is used to light up one layer at a time at high speed, creating the illusion of a 3D display.
 
 ## Wiring and Connections
