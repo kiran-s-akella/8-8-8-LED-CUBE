@@ -62,6 +62,7 @@ void loop() {
 
 ## Applications
 - Interactive **3D LED animations**
+- Used for **Hologram displays**
 - Learning **microcontroller programming**
 - Electronics and **multiplexing experiments**
 - Artistic **light displays**
@@ -77,5 +78,18 @@ Designed by **[Kiran Akella]** | Contact: **[akellakiran16@gmail.com]**
 ## License
 This project is **open-source** and can be freely modified and shared.
 
-## Layers
+## Pictures
+**Overall structure of the cube**
+![image](https://github.com/user-attachments/assets/5693e6d7-6e82-4434-aa03-815389909e0d)
+
+**Display of patterns**
+![image](https://github.com/user-attachments/assets/3b41d5c7-9781-41e6-81e8-ad498b4b3133)
+
+**Connection of shift registers and transistors**
+![image](https://github.com/user-attachments/assets/56e9ccaa-3abc-476d-8f81-3a48b4e57c6b)
+
+**Arduino Uno for power supply and displaying patterns from the code**
+![image](https://github.com/user-attachments/assets/8c11b595-0e3c-403e-8ba1-f477e393e225)
+
+**Layer by layer soldering**
 ![Image](https://github.com/user-attachments/assets/1ff64001-f257-43d8-9498-56b94779b121)
